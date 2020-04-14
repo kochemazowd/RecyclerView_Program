@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_name"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:autofillHints="name">
+    </EditText>
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_address"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:autofillHints="address">
+    </EditText>
+
+    <EditText
+        android:id="@+id/age_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txt_age"
+        android:inputType="number"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:autofillHints="address">
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:onClick="save"/>
+
+
+</LinearLayout>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">RecyclerViewProgram</string>
+    <string name="btn_go_to_add_menu">ADD NEW PEOPLE!</string>
+    <string name="btn_add">ADD!</string>
+    <string name="txt_name">Enter the name</string>
+    <string name="txt_address">Enter the address</string>
+    <string name="txt_age">Enter the age</string>
+    <string name="items_txt_address">Enter the Address</string>
+    <string name="item_txt_age">Enter age</string>
+    <string name="name">Name:</string>
+    <string name="address">Address:</string>
+    <string name="age">Age:</string>
 </resources>
